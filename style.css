@@ -1,0 +1,27 @@
+body{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+#clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 80%;
+    background-color: black;
+    margin-top: 200px;
+    border-radius: 20px;
+}
+#clock{
+    font-family: monospace;
+    font-size: 7rem;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
